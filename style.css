@@ -1,0 +1,95 @@
+/*Remove as margens e o preenchimento (espaço interno) 
+de todos os elementos e define o box-sizing para calcular 
+corretamente os tamanhos dos elementos com as bordas. */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Garante que a página ocupe toda a altura da tela. */
+html, body {
+    height: 100%;
+}
+
+/* Define um espaçamento entre as linhas de texto consistente. */
+body {
+    line-height: 1;
+    background-color: #6c3c9d;
+    color: #f1e4e4;
+    font-family: 'Lucinda Sans', 'Lucinda Sans Regular', 'Lucinda Grande', 'Lucinda Sans Unicode', Geneva, Verdana, sans-serif ,;
+    
+}
+
+/* Remove as bolinhas ou números das listas. */
+ol, ul {
+    list-style: none;
+
+}
+
+/* Garante que imagens e vídeos nunca ultrapassem
+ a largura do contêiner onde estão e mantém suas proporções.*/
+img, video{
+
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove os espaçamentos padrão entre as células de tabelas. */
+table {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+#container-cadastro-produto {
+    width: 500px;
+    margin: 0 auto;
+    padding-top:50px;
+}
+
+fieldset {
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    padding: 0 0 15px 15px;
+    border-radius: 8px ;
+}
+
+h2 {
+    color: rgb(240, 89, 19);
+}
+
+fieldset label, input {
+    margin: 10px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    line-height: 18px;
+}
+
+#descricao-produto {
+
+    min-width: 250px;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+#enviar-cadastro {
+    width: 55px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#enviar-cadastro:hover{
+  background: rgb(240, 89, 19);
+  color: snow;
+  
+}
+
+.novo-produto {
+    background: rgb(240, 89, 19);
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    
+}

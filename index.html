@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+        <title>Cadastro de produto</title>
+        
+    </head>
+    <body>
+        <div id="container-cadastro-produto">
+
+            <form action="">
+
+                <fieldset >
+
+                    <legend id="cadastre-seu-produto"><h2>Cadastre seu produto</h2></legend><br>
+
+                    <label for="nome-produto">Nome do produto: </label>
+                    <input type="text" id="nome-produto" nome="nome-produto">
+                    <label for="valor-produto">Valor do produto: </label>
+                    <input type="number" id="valor-produto" name="valor-produto">
+                    <label for="descricao-produto">Faça a descrição do produto: </label>
+                    <textarea name="descricao-produto" id="descricao-produto"></textarea>
+                    <input id="enviar-cadastro" type="submit" name="cadastrar">
+                    
+                </fieldset> 
+            </form>    
+            <p id="feefback-usuario"></p>
+            <section id="produto-cadastrado">
+
+            </section>
+        </div>
+    </body>
+
+</html>
